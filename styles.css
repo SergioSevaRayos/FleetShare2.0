@@ -2,18 +2,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: white;
+    background-image: url(media/img/fondos/istockphoto-1151736358-170667a.jpg);
 }
 
 
 header {
-    background-color: #000000;
+    background-image: url(media/img/fondos/cabecera2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center; /* Ajusta esto según tus necesidades */
+
+    height: 210px;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
-
+header nav{
+margin-top: 200px;
+}
 nav ul {
+    
     list-style: none;
     margin: 0;
     padding: 0;
@@ -34,33 +42,32 @@ nav a {
     transition: 0.2s;
 }
 nav a:hover {
-    color:#FF6B6B;
+    color:#F8854B;
 }
 
 main {
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 /* Agrega estos estilos a tu archivo styles.css */
 
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 4
-}
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 4
+    }
 
 
 .login-container {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #000000;
-    background-color: #3a3a3a14;
+    box-shadow: 0 0 10px #ffecec;
+    background-color: #faf9ffbe;
 }
 
 .login-container > form {
@@ -98,8 +105,8 @@ input {
 }
 input:focus {
     outline: none; /* Quita el contorno predeterminado de focus */
-    border-color: #4CAF50; /* Puedes ajustar el color del borde cuando está en focus */
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Opcional: Agrega una sombra al input en focus */
+    border-color: #F8854B; /* Puedes ajustar el color del borde cuando está en focus */
+    box-shadow: 0 0 5px rgba(175, 140, 76, 0.7); /* Opcional: Agrega una sombra al input en focus */
 }
 
 
@@ -125,4 +132,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 50px;
 }
