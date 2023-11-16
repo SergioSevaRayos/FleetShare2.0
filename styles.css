@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+nav a:hover {
+    color:#FF6B6B;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Agrega estos estilos a tu archivo styles.css */
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 4
+}
+
+
+.login-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    background-color: #3a3a3a14;
+}
+
+.login-container > form {
+    text-align: center;
+}
+
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+.material-symbols-outlined {
+    font-size: 34px; /* Ajusta el tamaño del icono según tus necesidades */
+}
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px;
+    background-color: #3a3a3a00;
+    text-align: center;
+}
+input:focus {
+    outline: none; /* Quita el contorno predeterminado de focus */
+    border-color: #4CAF50; /* Puedes ajustar el color del borde cuando está en focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7); /* Opcional: Agrega una sombra al input en focus */
+}
+
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #3a3a3ae2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
